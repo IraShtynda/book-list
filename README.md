@@ -10,7 +10,7 @@ Make sure you have the following software installed on your computer:
 ### Installation Instructions
 
 1. Clone this repository to your local machine:
-   `git clone https://github.com/IraShtynda/book-list.git
+   `git clone https://github.com/IraShtynda/book-list.git`
 
 2. Navigate to the project directory:
   `cd book-list`
