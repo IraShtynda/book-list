@@ -1,0 +1,184 @@
+{
+  "books": [
+    {
+      "title": "Harry Potter and the Philosopher's Stone",
+      "authorName": "J. K. Rowling",
+      "category": "fantasy",
+      "isbn": "9780747532743",
+      "active": false,
+      "createdAt": "September 27, 2023 10:12 AM",
+      "editedAt": "--",
+      "id": 1
+    },
+    {
+      "title": "Harry Potter and the Order of the Phoenix",
+      "authorName": "J. K. Rowling",
+      "category": "fantasy",
+      "isbn": "9781338878943",
+      "active": true,
+      "createdAt": "September 27, 2023 10:12 AM",
+      "editedAt": "--",
+      "id": 2
+    },
+    {
+      "title": "The Land of Mists",
+      "authorName": "A. Conan-Doyle",
+      "category": "classic",
+      "isbn": "9786175514818",
+      "active": false,
+      "createdAt": "September 27, 2023 10:13 AM",
+      "editedAt": "--",
+      "id": 3
+    },
+    {
+      "title": "11.22.63",
+      "authorName": "Stephen King",
+      "category": "modern",
+      "isbn": "9781444727333",
+      "active": false,
+      "createdAt": "September 27, 2023 10:13 AM",
+      "editedAt": "September 27, 2023 3:49 PM",
+      "id": 4
+    },
+    {
+      "title": "The Little Prince",
+      "authorName": "Antoine de Saint-Exupery",
+      "category": "fairytales",
+      "isbn": "9781840227864",
+      "active": true,
+      "createdAt": "September 27, 2023 10:14 AM",
+      "editedAt": "--",
+      "id": 5
+    },
+    {
+      "title": "Midnight Sun",
+      "authorName": "Stephenie Meyer",
+      "category": "drama",
+      "isbn": "9780349003641",
+      "active": false,
+      "createdAt": "September 27, 2023 10:14 AM",
+      "editedAt": "--",
+      "id": 6
+    },
+    {
+      "title": "Pride and Prejudice",
+      "authorName": "Jane Austen",
+      "category": "classic",
+      "isbn": "9789660394087",
+      "active": true,
+      "createdAt": "September 27, 2023 10:27 AM",
+      "editedAt": "September 27, 2023 10:27 AM",
+      "id": 7
+    },
+    {
+      "title": "Atomic Habits",
+      "authorName": "James Clear",
+      "category": "scientific",
+      "isbn": "9781847941831",
+      "active": false,
+      "createdAt": "September 27, 2023 10:31 AM",
+      "editedAt": "--",
+      "id": 8
+    },
+    {
+      "title": "Good Vibes Good Life",
+      "authorName": "Vex King",
+      "category": "scientific",
+      "isbn": "9781788171823",
+      "active": false,
+      "createdAt": "September 27, 2023 10:33 AM",
+      "editedAt": "September 27, 2023 11:56 AM",
+      "id": 9
+    },
+    {
+      "title": "Looking for Alaska",
+      "authorName": "John Green",
+      "category": "drama",
+      "isbn": "9780007523160",
+      "active": false,
+      "createdAt": "September 27, 2023 10:35 AM",
+      "editedAt": "--",
+      "id": 10
+    },
+    {
+      "title": "The Book Thief",
+      "authorName": "Markus Zusak",
+      "category": "detective",
+      "isbn": "9781784162122",
+      "active": true,
+      "createdAt": "September 27, 2023 10:39 AM",
+      "editedAt": "--",
+      "id": 11
+    },
+    {
+      "title": "Solitaire",
+      "authorName": "Alice Oseman",
+      "category": "modern",
+      "isbn": "9780007559220",
+      "active": false,
+      "createdAt": "September 27, 2023 10:42 AM",
+      "editedAt": "--",
+      "id": 12
+    },
+    {
+      "title": "I Was Born for This",
+      "authorName": "Alice Oseman",
+      "category": "modern",
+      "isbn": "9780008244095",
+      "active": true,
+      "createdAt": "September 27, 2023 10:44 AM",
+      "editedAt": "--",
+      "id": 13
+    },
+    {
+      "title": "Gaudí",
+      "authorName": "Rainer Zerbst",
+      "category": "scientific",
+      "isbn": "9723423423",
+      "active": true,
+      "createdAt": "September 27, 2023 10:53 AM",
+      "editedAt": "September 27, 2023 3:41 PM",
+      "id": 14
+    },
+    {
+      "title": "The Complete Alice",
+      "authorName": "Lewis Carroll",
+      "category": "fairytales",
+      "isbn": "9781447275992",
+      "active": true,
+      "createdAt": "September 27, 2023 10:54 AM",
+      "editedAt": "--",
+      "id": 15
+    },
+    {
+      "title": "Evil under the Sun",
+      "authorName": "Agatha Christie",
+      "category": "detective",
+      "isbn": "9780007527571",
+      "active": true,
+      "createdAt": "September 27, 2023 10:56 AM",
+      "editedAt": "September 28, 2023 2:40 AM",
+      "id": 16
+    },
+    {
+      "title": "Are You There Little Elf?",
+      "authorName": "Essi Kimpimaki",
+      "category": "fairytales",
+      "isbn": "9781474988827",
+      "active": true,
+      "createdAt": "September 27, 2023 10:59 AM",
+      "editedAt": "September 28, 2023 3:22 AM",
+      "id": 17
+    },
+    {
+      "title": "wRASASFA",
+      "authorName": "SFASFASFAS",
+      "category": "modern",
+      "isbn": "2141243224242",
+      "active": false,
+      "createdAt": "September 28, 2023 11:01 AM",
+      "editedAt": "September 28, 2023 11:01 AM",
+      "id": 18
+    }
+  ]
+}

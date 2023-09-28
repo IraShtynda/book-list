@@ -1,0 +1,82 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.upsert-book {
+  padding-block: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include onTablet {
+    padding-block: 42px;
+  }
+
+  @include onDesktop {
+    padding-block: 56px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    color: $color-primary;
+    margin-bottom: 16px;
+
+    @include onTablet {
+      font-size: 42px;
+      margin-bottom: 24px;
+    }
+
+    @include onDesktop {
+      font-size: 56px;
+    }
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-bg;
+    border: 1px solid $color-secondary;
+    padding: 32px;
+  }
+  &__label {
+    font-weight: 600;
+  }
+  &__input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+
+    @include onTablet {
+      margin-bottom: 16px;
+    }
+  }
+  &__input {
+    border: 1px solid $color-secondary;
+    height: 32px;
+    padding: 4px;
+    min-width: 220px;
+    @include onTablet {
+      min-width: 320px;
+    }
+  }
+  &__submit {
+    background-color: $color-text;
+    padding: 8px 42px;
+    color: $color-bg;
+    margin: auto;
+    @include hover(background-color, $color-primary);
+  }
+  &__link {
+    display: block;
+    background-color: $color-primary;
+    padding: 8px 42px;
+    border: 1px solid $color-secondary;
+    @include hover(background-color, $color-main-bg);
+    margin-top: 16px;
+
+    @include onTablet {
+      margin-top: 24px;
+    }
+  }
+}

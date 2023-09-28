@@ -1,0 +1,26 @@
+@import './styles/reset.scss';
+@import './styles/variables.scss';
+@import './styles/mixins.scss';
+
+.app {
+  background-color: $color-main-bg;
+  font-family: 'Sora', sans-serif;
+  height: 100vh;
+  color: $color-text;
+  scroll-behavior: smooth;
+
+  &__content {
+    min-width: 320px;
+    min-height: calc(100% - $footer-height);
+    margin: 0 auto;
+    padding: 0 $phone-page-padding;
+
+    @include onTablet {
+      padding: 0 $tablet-page-padding;
+    }
+
+    @include onDesktop {
+      max-width: 1200px;
+    }
+  }
+}

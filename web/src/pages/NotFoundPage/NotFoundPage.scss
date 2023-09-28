@@ -1,0 +1,76 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin: auto;
+  padding-block: 32px;
+  height: calc(100vh - $footer-height);
+
+  @include onTablet {
+    padding-block: 42px;
+    gap: 56px;
+    flex-direction: row;
+  }
+
+  @include onDesktop {
+    padding-block: 56px;
+  }
+
+  &__title {
+    font-size: 56px;
+
+    @include onTablet {
+      font-size: 112px;
+    }
+  }
+
+  &__line {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: $color-secondary;
+
+    @include onTablet {
+      width: 1px;
+      height: 250px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include onTablet {
+      align-items: flex-start;
+    }
+  }
+
+  &__oops {
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 8px;
+
+    @include onTablet {
+      font-size: 48px;
+    }
+  }
+
+  &__btn {
+    background-color: $color-primary;
+    padding: 8px 42px;
+    border: 1px solid $color-secondary;
+    @include hover(background-color, $color-main-bg);
+    margin-top: 16px;
+
+    @include onTablet {
+      margin-top: 24px;
+    }
+  }
+}

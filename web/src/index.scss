@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap');
+@import './styles/variables.scss';
+
+:root {
+  --toastify-color-dark: #{'Sora', sans-serif};
+  --toastify-color-success: #{$color-success};
+  --toastify-color-error: #{$color-danger};
+
+  --toastify-toast-width: 280px;
+  --toastify-font-family: 'Sora', sans-serif;
+}

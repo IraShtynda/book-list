@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  display: inline-block;
+  width: 100%;
+  height: $footer-height;
+  font-size: 12px;
+  line-height: $footer-height;
+  color: $color-bg-active;
+  text-align: center;
+  background-color: $color-text;
+}

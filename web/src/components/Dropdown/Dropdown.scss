@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
+
+.dropdown {
+  background-color: $color-bg;
+  border: 1px solid $color-secondary;
+  padding: 4px;
+
+  &__option {
+    background-color: $color-bg;
+    @include hover(background-color, $color-bg-active)
+  }
+}
