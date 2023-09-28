@@ -29,6 +29,6 @@ Make sure you have the following software installed on your computer:
   `cd web`
    - To run the application, execute the following command:
   `npm start`
-  ##You can run the app in the development mode. Open http://localhost:3001 to view it in the browser.
+   - You can run the app in the development mode. Open http://localhost:3001 to view it in the browser.
 
 
