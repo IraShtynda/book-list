@@ -19,15 +19,15 @@ Make sure you have the following software installed on your computer:
   `npm install`
 
 4. Running the JSON server
-  ##Navigate to the api directory:
+   - Navigate to the api directory:
   `cd api`
-  ##To run the JSON server, execute the following command:
+   - To run the JSON server, execute the following command:
   `json-server db.json`
 
 5. Running the Application
-  ##Navigate to the web directory:
+   - Navigate to the web directory:
   `cd web`
-  ##To run the application, execute the following command:
+   - To run the application, execute the following command:
   `npm start`
   ##You can run the app in the development mode. Open http://localhost:3001 to view it in the browser.
 
